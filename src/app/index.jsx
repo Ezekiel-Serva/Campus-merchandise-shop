@@ -1,23 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function App() {
+export default function Home() {
   return (
-      <View style={styles.container}>
-          <Text style={styles.text}>Hello, world!</Text>
-      </View>
-        );
+    <View style={styles.container}>
+      <Text style={styles.title}>Campus Merch Shop</Text>
+      <Text style={styles.subtitle}>Welcome! Browse gear from the Shop tab.</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    backgroundColor: '#ffffff',
     justifyContent: 'center',
-    },
-    text: {
-    fontSize: 20,
-    fontWeight: '600',
-    },
+    alignItems: 'center',
+    padding: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 14,
+    color: '#555555',
+    textAlign: 'center',
+  },
 });
+
