@@ -5,6 +5,7 @@ export default function Home() {
     <View style={styles.container}>
       <Text style={styles.title}>Campus Merch Shop</Text>
       <Text style={styles.subtitle}>Welcome! Browse gear from the Shop tab.</Text>
+      <Text style={styles.subtitle}>Browse university shirts, lanyards, and books with a saved wish list feature!</Text>
     </View>
   );
 }
