@@ -8,7 +8,7 @@ const departments = [
   { name: 'CEA', href: '/shop/cea-shop',   image: require('../../../../assets/DepartMent-Logo/Cea.jpeg') },
   { name: 'COED', href: '/shop/coed-shop', image: require('../../../../assets/DepartMent-Logo/Coed.jpeg') },
   { name: 'COM', href: '/shop/com-shop',   image: require('../../../../assets/DepartMent-Logo/Com.jpeg') },
-  { name: 'CON', href: '/shop/con-shop',   image: require('../../../../assets/DepartMent-Logo/Con.jpeg') },
+  { name: 'CON', href: '/shop/con-shop',   image: require('../../../../assets/DepartMent-Logo/coll-of-nurse.jpeg') },
 ]
 
 export default function Shop() {
